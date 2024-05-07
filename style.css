@@ -328,12 +328,17 @@ ul {
 }
 
 .footer {
-    background-color: rgb(30, 78, 168);
+    background-color: rgb(228, 241, 198);
     color: aqua;
     font-size: 12px;
     padding: 20px 0;
     text-align: center;
     padding-bottom: 20px;
+}
+
+.footer-container a {
+    font-family: 'Poppins', sans-serif;
+    color: black;
 }
 
 @media ( max-width: 700px) {
