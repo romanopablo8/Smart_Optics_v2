@@ -15,16 +15,20 @@
     
 }
 
+.footer2 {
+    background-color: rgb(30, 78, 168);
+    text-align: center;
+}
 
 body {
-    background-color: rgb(43, 126, 129);
+    background-color: aliceblue;
     color: white;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -39,6 +43,8 @@ ul {
 
 
 /* Estilo Login */
+
+
 
 .login-container {
     height: 700px;
@@ -154,7 +160,7 @@ ul {
 /* Registro */
 
 .form-register {
-    width: 400px;
+    width: 50%;
     background: #24303c;
     padding: 30px;
     margin-top:80px;
@@ -162,7 +168,7 @@ ul {
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
-    margin-left: 650px;
+    margin-left:450px;
     margin-bottom: 80px;
   }
   
@@ -286,6 +292,9 @@ ul {
     margin-left: 20px;
 }
 
+.nav-menu-right {
+    padding-right:15px;
+}
 .showtext {
     width: 100%;
     height: 750px;
@@ -333,6 +342,7 @@ ul {
     gap: 35px;
     align-items: center;
     margin: 10px 0;
+    color: #000;
 
 }
 
@@ -348,6 +358,7 @@ ul {
 
 .social {
     margin: 0px;
+    background: rgb(30, 78, 168);
 }
 
 .social p {
@@ -396,7 +407,7 @@ ul {
 }
 
 .footer {
-    background-color: rgb(30, 78, 168);
+    background-color: aliceblue;
     color: aqua;
     font-size: 11px;
     padding: 20px 0;
@@ -410,11 +421,12 @@ ul {
 }
 
 
-/* ESTILOS IFRAME */
+/* ESTILOS IFRAME*/
 
-.container-iframe {
-    border: solid black;
-} 
+.container-iframe h1 {
+   text-align: center;
+   
+}
 
 @media ( max-width: 700px) {
     
@@ -500,4 +512,15 @@ ul {
         align-content: center;
         justify-content: space-between;
     }
+
+    .form-register {
+        margin: 0;
+        margin-top: 30px;
+       }
+    
+       .footer-links .footer-container {
+        grid-template-columns: 1fr;
+     }
 }
+
+    
