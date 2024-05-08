@@ -515,11 +515,14 @@ ul {
 
     .form-register {
         margin: 0;
-        margin-top: 30px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
        }
     
        .footer-links .footer-container {
-        grid-template-columns: 1fr;
+            grid-template-columns: 1fr;
      }
 }
 
